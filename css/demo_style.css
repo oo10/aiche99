@@ -1,0 +1,91 @@
+html,body,div,ul,li,ol,a,input,textarea,p,dl,dt,dd{margin:0;padding:0;}
+ul li{list-style: none;}
+*{ -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */ }
+a{text-decoration: none;cursor: pointer;}
+html{height: 100%;}
+body{height: 100%;background: #f5f5f5;position: relative;font-family: 'Microsoft JhengHei Light','Microsoft JhengHei','Microsoft YaHei Light','Microsoft YaHei',sans-serif;max-width: 640px;margin:auto;}
+header{
+    width:100%;
+    height: 45px;
+    background: #ececea;
+    border-bottom: 1px solid #ddd;
+}
+header.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.header{
+    margin:0 20px;
+    text-align: center;
+    color: #4e4a49;
+    font-size: 1em;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: 100%;
+    width: 20px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 99;
+    background: rgba(145,145,145,0);
+}
+nav ul{
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+nav li{
+    display: block;
+    padding-right: 10px;
+}
+main{
+    height: auto;
+    width: 100%;
+}
+main .class_title{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    color: #787878;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+main .class_list{
+    padding: 10px 60px 10px 80px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.class_list .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.class_list .logo img{
+    width: 50px;
+    height: 50px;
+}
+.class_list .name{
+
+}
+.class_list select{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 40px;
+    width: 80%;
+    opacity: 0;
+    filter:Alpha(opacity=0);
+}
